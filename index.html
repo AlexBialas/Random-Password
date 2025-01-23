@@ -14,9 +14,13 @@
       </h1>
       <div class="display">
         <input type="text" id="password" placeholder="Password" />
-        <img src="./images/copy-icon-vector-illustration.jpg" alt="copypic" />
+        <img
+          src="./images/copy-icon-vector-illustration.jpg"
+          alt="copypic"
+          onclick="copyToClipboard()"
+        />
       </div>
-      <button>Generate</button>
+      <button onclick="createPassword()">Generate</button>
     </div>
     <script src="app.js"></script>
   </body>
